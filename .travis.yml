@@ -4,7 +4,7 @@ jdk:
 
 branches:
   only:
-    - main # git default 브런치를 등록한다. (ex. master)
+    - master # git default 브런치를 등록한다. (ex. master)
 
 before_install:
   - chmod +x gradlew
